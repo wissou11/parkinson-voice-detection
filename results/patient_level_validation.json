@@ -1,0 +1,87 @@
+{
+  "n_recordings": 195,
+  "n_patients": 32,
+  "n_patients_parkinson": 24,
+  "baseline_always_parkinson": {
+    "accuracy": 0.754,
+    "balanced_accuracy": 0.5,
+    "f1": 0.86,
+    "roc_auc": 0.5,
+    "recall": 1.0,
+    "specificity": 0.0
+  },
+  "models": {
+    "Logistic Regression": {
+      "record_level": {
+        "accuracy": 0.848,
+        "balanced_accuracy": 0.771,
+        "f1": 0.901,
+        "roc_auc": 0.887,
+        "recall": 0.922,
+        "specificity": 0.62
+      },
+      "patient_level": {
+        "accuracy": 0.788,
+        "balanced_accuracy": 0.691,
+        "f1": 0.863,
+        "roc_auc": 0.746,
+        "recall": 0.883,
+        "specificity": 0.498
+      }
+    },
+    "KNN": {
+      "record_level": {
+        "accuracy": 0.939,
+        "balanced_accuracy": 0.928,
+        "f1": 0.959,
+        "roc_auc": 0.928,
+        "recall": 0.949,
+        "specificity": 0.907
+      },
+      "patient_level": {
+        "accuracy": 0.753,
+        "balanced_accuracy": 0.64,
+        "f1": 0.84,
+        "roc_auc": 0.64,
+        "recall": 0.862,
+        "specificity": 0.418
+      }
+    },
+    "Naive Bayes": {
+      "record_level": {
+        "accuracy": 0.776,
+        "balanced_accuracy": 0.798,
+        "f1": 0.836,
+        "roc_auc": 0.86,
+        "recall": 0.756,
+        "specificity": 0.84
+      },
+      "patient_level": {
+        "accuracy": 0.714,
+        "balanced_accuracy": 0.682,
+        "f1": 0.797,
+        "roc_auc": 0.751,
+        "recall": 0.745,
+        "specificity": 0.619
+      }
+    },
+    "SVM": {
+      "record_level": {
+        "accuracy": 0.921,
+        "balanced_accuracy": 0.876,
+        "f1": 0.948,
+        "roc_auc": 0.956,
+        "recall": 0.964,
+        "specificity": 0.788
+      },
+      "patient_level": {
+        "accuracy": 0.756,
+        "balanced_accuracy": 0.618,
+        "f1": 0.846,
+        "roc_auc": 0.643,
+        "recall": 0.889,
+        "specificity": 0.347
+      }
+    }
+  }
+}
